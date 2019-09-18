@@ -3,7 +3,7 @@
 int main(void)
 {
 /* print this phrase*/
-puts("\"Programming is like building a multilingual puzzle" \n);
+puts("\"Programming is like building a multilingual puzzle\n");
 return (0);
 }
 
