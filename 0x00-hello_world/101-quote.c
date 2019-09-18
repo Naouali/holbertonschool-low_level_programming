@@ -2,9 +2,9 @@
 #include <unistd.h>
 /**
  *main-Entry point
- *
+ * 
  *printf alternative
- *
+ * 
  * return 1
  */
 int main(void)
