@@ -1,12 +1,12 @@
 #include <stdio.h>
-/** this program
- * print the
- * following bellow
+/**
+ * main - Entry point
+ * print message
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-/* print this phrase*/
-	puts("\"Programming is like building a multilingual puzzle ");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
 
