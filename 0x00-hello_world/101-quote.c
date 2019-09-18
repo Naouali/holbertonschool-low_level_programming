@@ -2,10 +2,10 @@
 #include <unistd.h>
 /**
  *main-Entry point
- * 
+ *
  *printf alternative
- * 
- * return 1
+ *
+ *return : Alawys 1 (success)
  */
 int main(void)
 {
