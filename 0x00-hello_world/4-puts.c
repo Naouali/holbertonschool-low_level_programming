@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* this program print the following bellow */
+/** this program print the following bellow */
 int main(void)
 {
 /* print this phrase*/
