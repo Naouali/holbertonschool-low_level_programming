@@ -1,14 +1,14 @@
-#include "holberton"
+#include "holberton.h"
 
 /**
  * _abs - check the code for Holberton School students.
- *@int: integer
+ *@i: integer
  * Return: Always 0.
  */
 
-int _abs(int)
+int _abs(int i)
 {
-	int i;
+
 
 	if (i < 0)
 {
