@@ -1,5 +1,11 @@
 #include "holberton.h"
 
+/**
+ * times_table - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+
 void times_table(void)
 {
 	int i, a;
@@ -10,12 +16,13 @@ void times_table(void)
 {
 	int s = i * a;
 
-	if (s / 10 != 0 )
+	if (s / 10 != 0)
 {
 	_putchar(s / 10 + '0');
 }
 	_putchar(s % 10 + '0');
-	if ( a != 9 )
+
+	if (a != 9)
 {
 	_putchar(',');
 	_putchar(' ');
