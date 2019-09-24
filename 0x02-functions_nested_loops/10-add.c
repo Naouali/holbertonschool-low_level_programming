@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 /**
- * int add(int, int) - check the code for Holberton School students.
- * @int: integer
- * Return: Always 0.
+ * add - adds two integers
+ * @a: integer 1
+ * @b: integer 2
+ * Return: returns result
  */
 int add(int a, int b)
 {
 
-	return (a+b);
+	return (a + b);
 }
