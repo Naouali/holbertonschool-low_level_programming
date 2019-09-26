@@ -7,11 +7,14 @@
  */
 
 void more_numbers(void)
-}
+{
+
+
 	int i, z;
 
 	i = 0;
 	z = 0;
+
 	while (i <= 10)
 	{
 
@@ -19,12 +22,12 @@ void more_numbers(void)
 	{
 	if (z > 9)
 	{
-	putchar(z / 10 + '0');
+	_putchar(z / 10 + '0');
 	}
-	putchar(z % 10 + '0');
+	_putchar(z % 10 + '0');
 	}
 
-	putchar('\n');
+	_putchar('\n');
 	i++;
 	}
 
