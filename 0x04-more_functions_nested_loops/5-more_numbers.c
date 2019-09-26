@@ -12,7 +12,8 @@ void more_numbers(void)
 
 	int i, z;
 
-
+	i = 0;
+	z = 0;
 
 	while (i < 10)
 {
