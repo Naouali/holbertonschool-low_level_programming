@@ -14,7 +14,7 @@ void more_numbers(void)
 
 
 
-	while (i <= 10)
+	while (i < 10)
 {
 
 	for (z = 0; z <= 14; z++)
