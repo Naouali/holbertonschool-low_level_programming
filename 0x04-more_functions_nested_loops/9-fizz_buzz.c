@@ -25,7 +25,7 @@ int main(void)
 	printf("%d", i);
 	if (i != 100)
 	printf(" ");
-}
+
 
 
 	while (i == 100)
@@ -33,6 +33,6 @@ int main(void)
 	printf("\n");
 	i++;
 }
-
+}
 	return (0);
 }
