@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- *int _strlen - check the code for Holberton School students.
- *
+ * _strlen - check the code for Holberton School students.
+ * @s: string
  * Return: Always 0.
  */
 
