@@ -10,12 +10,15 @@ void print_square(int size)
 {
 	int i;
 
-	i = 0;
+
 	while (size > 0 && i < size)
 	{
 	_putchar('#');
 	i++;
-	}
+
+	_putchar('\n');
+}
+	if (size <= 0)
 	_putchar('\n');
 }
 
