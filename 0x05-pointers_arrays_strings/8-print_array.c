@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * print_array - check the code for Holberton School students.
- *
+ *@a: int
+ *@n: int
  * Return: Always 0.
  */
 
