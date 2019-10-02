@@ -17,9 +17,9 @@ void print_array(int *a, int n)
 	while (i < n)
 {
 	if (i + 1 != n)
-	printf("%d, ", a[i++]);
+	printf("%s, ", a[i++]);
 	else
-	printf("%d", a[i++]);
+	printf("%s", a[i++]);
 }
 	_putchar('\n');
 }
