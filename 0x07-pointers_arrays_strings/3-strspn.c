@@ -1,9 +1,9 @@
 #include"holberton.h"
 /**
  * _strspn - Counts bytes from accept in the prefix substring of s
- * @s: pointer
- * @accept: pointer
- * Return: number of bytes
+ * @s: point
+ * @accept: point
+ * Return: n
 */
 unsigned int _strspn(char *s, char *accept)
 {
