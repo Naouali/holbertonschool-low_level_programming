@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strstr - find the 1st occurence of the substring needle in haystack.
+ * _strstr - check the code
  * @haystack: str
  * @needle: substring
  * Return: pointer
