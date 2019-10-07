@@ -1,17 +1,14 @@
 #include "holberton.h"
-
 /**
  * _strstr - check the code
- * @haystack: str
+ * @haystack: string.
  * @needle: substring
  * Return: pointer
  */
 char *_strstr(char *haystack, char *needle)
 {
 	int i = 0, j;
-
-
-	int oc = 0;
+	int occ = 0;
 	char *plus;
 
 	while (haystack[i] != '\0')
@@ -20,19 +17,27 @@ char *_strstr(char *haystack, char *needle)
 		{
 			plus = &haystack[i];
 			j = 0;
-			while (needle[j] == haystack[i])
+			while (needle[j] != '\0')
 			{
-				oc = 1;
-				i++;
-				j++;
+				if (needle[j] == haystack[i])
+				{
+					i++;
+					j++;
+					occ = 1;
+				}
+				else
+				{
+					occ = 0;
+					break;
+				}
 			}
 		}
-		if (oc == 1)
+		if (occur == 1)
 		{
 			return (plus);
 		}
 		plus = 0;
-		oc = 0;
+		occ = 0;
 		i++;
 	}
 	return (0);
