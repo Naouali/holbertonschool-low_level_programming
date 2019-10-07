@@ -6,7 +6,7 @@
  *
  *printf alternative
  *
- *return: Alawys 1 (success)
+ *return value: 1
  */
 int main(void)
 
