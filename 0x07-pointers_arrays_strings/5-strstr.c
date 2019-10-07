@@ -32,7 +32,7 @@ char *_strstr(char *haystack, char *needle)
 				}
 			}
 		}
-		if (occur == 1)
+		if (occ == 1)
 		{
 			return (plus);
 		}
