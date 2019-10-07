@@ -22,9 +22,10 @@ char *_strstr(char *haystack, char *needle)
 			{
 				if (needle[j] == haystack[i])
 				{
+					occ = 1;
 					i++;
 					j++;
-					occ = 1;
+
 				}
 				else
 				{
