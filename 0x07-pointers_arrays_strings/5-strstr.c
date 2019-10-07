@@ -37,8 +37,8 @@ char *_strstr(char *haystack, char *needle)
 		{
 			return (plus);
 		}
-		plus = 0;
-		occ = 0;
+
+
 		i++;
 	}
 	return (0);
