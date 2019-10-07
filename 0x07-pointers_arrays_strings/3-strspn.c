@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _strspn - gets the length of a prefix substring.
  * @s: the string.
@@ -12,14 +13,14 @@ unsigned int _strspn(char *s, char *accept)
 	int len = 0;
 	int k = 0;
 
-	while (accept[alen] != '\0')
+	while (accept[len] != '\0')
 	{
 		len++;
 	}
 
 	for (i = 0; s[i] != ' ' && s[i] != '\0'; i++)
 	{
-		for (j = 0; j < alen; j++)
+		for (j = 0; j < len; j++)
 		{
 			if (s[i] == accept[j])
 			{
