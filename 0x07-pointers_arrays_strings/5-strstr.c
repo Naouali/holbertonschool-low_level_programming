@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _strstr - find the 1st occurence of the substring needle in haystack.
  * @haystack: str
@@ -17,7 +18,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		if (needle[0] == haystack[i] && haystack[i] != '\0')
 		{
-			add = &haystack[i];
+			plus = &haystack[i];
 			j = 0;
 			while (needle[j] == haystack[i])
 			{
