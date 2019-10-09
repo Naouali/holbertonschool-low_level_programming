@@ -11,7 +11,7 @@ int is_prime_number(int n)
 }
 
 /**
-  * prime - primary or not
+  * primeornot - primary or not
   * @i: integer
   * @n: Number
   * Return: 0 or 1
