@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ *_pow_recursion - check the code for Holberton School students.
+ *@x: int
+ *@y: int
  * Return: Always 0.
  */
 
