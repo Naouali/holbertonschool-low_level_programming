@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ *_sqrt_recursion - call function to verifiy squares
+ *@n:int
  * Return: Always 0.
  */
 int _sqrt_recursion(int n)
@@ -13,6 +13,13 @@ int _sqrt_recursion(int n)
 
 }
 
+
+/**
+ * sqrcheker - function to determine sqr on n numbers
+ *@i:int
+ *@n:int
+ *Return: sqr
+ */
 
 int sqrcheker(int i, int n)
 
