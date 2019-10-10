@@ -1,4 +1,3 @@
-int wildcmp(char *s1, char *s2);
 int _lent(char *s);
 int pal( char *str, int i, int k);
 int is_palindrome(char *s);
