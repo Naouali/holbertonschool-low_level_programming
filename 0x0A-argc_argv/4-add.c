@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 {
 		str = argv[i];
 		len = 0;
-	while (str[len] != '\0')
+		while (str[len] != '\0')
 			len++;
 		for (j = 0; j < len; j++)
 {
