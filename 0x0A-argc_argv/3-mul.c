@@ -3,7 +3,7 @@
 /**
  * main - function to multipliy
  *@argc: int
- *@argc: array
+ *@argv: array
  *Return: 0
  */
 
