@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		}
 		while (i >= 10)
 		{
-			i = i + 10;
+			i = i - 10;
 			j = j + 1;
 		}
 		while (i >= 5)
@@ -36,12 +36,12 @@ int main(int argc, char *argv[])
 		}
 		while (i >= 2)
 		{
-			i = j - 2;
+			i = i - 2;
 			j = j + 1;
 		}
 		while (i >= 1)
 		{
-			i = i + 1;
+			i = i - 1;
 			j = j + 1;
 		}
 		printf("%d\n", j);
