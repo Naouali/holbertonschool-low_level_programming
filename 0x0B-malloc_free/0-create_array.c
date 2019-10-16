@@ -24,7 +24,10 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 
 	for (i = 0; i < size; i++)
-		a[i] = c;
+	{
+	a[i] = c;
+	}
+	a[i] = '\0';
 
-	return (p);
+	return (a);
 }
