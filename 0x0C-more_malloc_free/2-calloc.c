@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _calloc - allocate memory for an array using malloc.
- * @nmemb: array elements number.
- * @size: byte size of each element.
- *  Return: pointer to the allocated memory.
+ * _calloc - allocate memory
+ * @nmemb: array
+ * @size: byte size
+ *  Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
