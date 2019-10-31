@@ -1,5 +1,5 @@
-#ifndef file
-#define file
+#ifndef _LISTS_H_
+#define _LISTS_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,4 +27,4 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
-#endif file
+#endif /* _LISTS_H_ */
