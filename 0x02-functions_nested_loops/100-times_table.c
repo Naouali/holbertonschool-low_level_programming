@@ -17,32 +17,24 @@ void print_times_table(int n)
        return;
     }
 {
-
-	if (i * j <= 9)
-{
-	if (j != 0)
-{
+    if (i * j <= 9){
+	if (j != 0){
 	_putchar(' ');
 	_putchar(' ');
 	_putchar(' ');
-}
-	_putchar((i * j) + '0');
-	if (j != n)
-{
+}   _putchar((i * j) + '0');
+	if (j != n){
 	_putchar(',');
 }
-}
-	else if (i * j < 100)
-{
-	if (j != 0)
-{
+}   
+else if (i * j < 100){
+	if (j != 0){
 	_putchar(' ');
 	_putchar(' ');
-}
-	_putchar(i * j / 10  + '0');
+}   
+    _putchar(i * j / 10  + '0');
 	_putchar(i * j % 10  + '0');
-	if (j != n)
-{
+	if (j != n){
 	_putchar(',');
 }
 }
@@ -50,22 +42,20 @@ void print_times_table(int n)
 {
 	if (j != 0)
 	x = i * j % 100;
-{
+	{
 	_putchar(' ');
 }
 	_putchar(i * j / 100 + '0');
 	_putchar(x / 10  + '0');
 	_putchar(i * j % 10  + '0');
 	if (j != n)
-{
+	{
 	_putchar(',');
 }
-
 }
 }
 }
 	_putchar('\n');
-
 }
 }
 
