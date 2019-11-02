@@ -20,7 +20,9 @@ int main(void)
 	c = a + b;
 	a = b;
 	b = c;
-	printf("%u, \n", c);
+	printf("%u, ", c);
+
 	}
+	printf("\n");
 	return (0);
 }
