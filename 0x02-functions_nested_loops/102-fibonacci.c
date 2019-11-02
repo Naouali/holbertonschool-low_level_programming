@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int i, a, b;
-	unsigned int c;
+	long i, a, b;
+	long c = 0;
 
 
 	a = 0;
@@ -21,9 +21,9 @@ int main(void)
 	a = b;
 	b = c;
 	if (i != 49)
-	printf("%u, ", c);
+	printf("%ld, ", c);
 	else
-	printf("%u", c);
+	printf("%ld", c);
 
 	}
 	printf("\n");
