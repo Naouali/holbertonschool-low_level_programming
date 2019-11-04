@@ -18,9 +18,11 @@ int main(void)
 	c = a + b;
 	a = b;
 	b = c;
-	printf("%lu, ",c);
-	if (i == 97)
-	printf("%lu\n",c);
+	if (i != 96)
+	printf("%lu, ", c);
+	else
+	printf("%lu", c);
 	}
+	printf("\n");
 	return (0);
 }
