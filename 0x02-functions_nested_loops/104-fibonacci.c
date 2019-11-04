@@ -19,7 +19,8 @@ int main(void)
 	a = b;
 	b = c;
 	printf("%lu, ",c);
-
+	if (i == 97)
+	printf("%lu\n",c);
 	}
 	return (0);
 }
