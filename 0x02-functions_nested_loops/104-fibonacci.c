@@ -18,10 +18,11 @@ int main(void)
 	c = a + b;
 	a = b;
 	b = c;
-	if (i < 88)
+	if (i < 97)
 	printf("%lu, ", c);
-	else if (i == 88)
+	else if ( i == 97)
 	printf("%lu\n", c);
+
 	}
 	return (0);
 }
