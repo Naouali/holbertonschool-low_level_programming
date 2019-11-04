@@ -9,16 +9,17 @@
 
 int main(void)
 {
-	unsigned i, a, b, c = 0;
+	unsigned int i, a, b, c = 0;
 
-	a = 0;
-	b = 1;
-	for (i = 0; i < 98; i++)
+	a = 1;
+	b = 2;
+	printf("%u, %u, ", a, b);
+	for (i = 1; i < 97; i++)
 	{
 	c = a + b;
 	a = b;
 	b = c;
-	if (i != 97)
+	if (i != 96)
 	printf("%u, ", c);
 	else
 	printf("%u", c);
