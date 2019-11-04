@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	long i, a, b, c = 0;
+	unsigned int i, a, b, c = 0;
 
 	a = 0;
 	b = 1;
@@ -19,9 +19,9 @@ int main(void)
 	a = b;
 	b = c;
 	if (i != 96)
-	printf("%lu, ", c);
+	printf("%u, ", c);
 	else
-	printf("%lu", c);
+	printf("%u", c);
 	}
 	printf("\n");
 	return (0);
