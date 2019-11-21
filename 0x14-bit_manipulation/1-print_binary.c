@@ -11,13 +11,15 @@
 void print_binary(unsigned long int n)
 {
 
-	if (n <= 1)
+	unsigned long int i = 1;
+
+	if (n <= i)
 		_putchar(n + '0');
 	else
 	while (n)
 	{
-		_putchar((n & 1) + '0');
-		n = n >> 1;
+		_putchar((n & i) + '0');
+		n = n >> i;
 	}
 }
 
