@@ -1,5 +1,6 @@
 #ifndef _HEAD_
 #define _HEAD_
+int clear_bit(unsigned long int *n, unsigned int index);
 
 int _putchar(char c);
 int get_bit(unsigned long int n, unsigned int index);
