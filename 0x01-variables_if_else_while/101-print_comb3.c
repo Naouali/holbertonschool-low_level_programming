@@ -18,15 +18,22 @@ while (i < 10)
     {
         int c = j + 1;
         while (c < 10)
-            {
-                putchar(i + '0');
-                putchar(j + '0');
-                putchar(c + '0');
-                if ( i < 7 || j < 8 || c < 9)
-                {
-                    putchar(',');
-                    putchar(' ');
-                }
+            {   
+                int d = c + 1;
+                while (d < 10)
+                    {
+                        putchar(i + '0');
+                        putchar(j + '0');
+                        putchar(' ');
+                        putchar(c+ '0');
+                        putchar(d + '0');
+                        if ( i < 7 || j < 8 || c < 9)
+                        {
+                            putchar(',');
+                            putchar(' ');
+                        }
+                        d++;
+                    }
                 c++;
             }
         
