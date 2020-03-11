@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
-
+#include "prime.h"
 /**
- * main - function to find the largest prime factors
+ * main - function to print highst prime factor
  *
  * Return: zero on succes
  */
@@ -11,33 +10,22 @@ int main(void)
 {
 	long int i = 612852475143;
 	long int j;
-	long int prime;
-	int k;
-	long int m;
-	
-	//int count = 0;
-	for (j = 1; j < i; j++)
+	unsigned int k;
+	unsigned int prime;
+	for(j = 2; j < i; j++)
 	{
-		if (i % j == 0 && j > 1)
+		if (i % j == 0)
 		{
-			
 			prime = i / j;
-				for(k = 2; k < prime / 2; k++)
-				{
-					if (prime % k != 0 )
-					{
-						m = prime;
-						printf("%ld\n", m);
-					}
-					continue;
-				}
-		       	
+			k = is_prime(prime);
+			if (k != 0)
+			{
+				printf("%d\n", k);
+					break;
+			}
 		}
-	
-	printf("%ld\n", m);
-	break;	
 	}
-	
- 	return 0;
-}
+	return 0;
+	}
+
 
