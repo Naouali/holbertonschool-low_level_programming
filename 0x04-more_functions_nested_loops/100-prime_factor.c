@@ -12,7 +12,8 @@ int main(void)
 	long int j;
 	unsigned int k;
 	unsigned int prime;
-	for(j = 2; j < i; j++)
+
+	for (j = 2; j < i; j++)
 	{
 		if (i % j == 0)
 		{
@@ -25,35 +26,36 @@ int main(void)
 			}
 		}
 	}
-	return 0;
+	return (0);
 	}
 #include <stdio.h>
 #include "prime.h"
 
 /**
- *
- *
+ *is_prime - function to determine if a number is prime
+ *@n: intiger
+ *Return: number if prime, else zero
  */
 int is_prime(int n)
 {
-        int i, c = 0;
+		int i, c = 0;
 
 
-        for (i = 1; i <= n; i++)
-        {
-                if (n % i == 0)
-                {
-                        c++;
-                }
-        }
+		for (i = 1; i <= n; i++)
+		{
+			if (n % i == 0)
+			{
+				c++;
+			}
+		}
 
-        if (c == 2)
-        {
-                return n;
-        }
+			if (c == 2)
+			{
+				return (n);
+			}
 
-        else
-                return 0;
+			else
+				return (0);
 }
 
 
