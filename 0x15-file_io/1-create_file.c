@@ -1,4 +1,10 @@
 #include "holberton.h"
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <string.h>
+
 
 /**
  * create_file - function to create a file
@@ -9,20 +15,23 @@
 
 int create_file(const char *filename, char *text_content)
 {
+  //int empty;
+  // empty = open(filename, O_CREAT | O_RDWR);
+  
+  if (filename == NULL)
+    return (-1);
+  if (text_content == NULL)
+    return 1;
 
-	int fd, i = 0, s;
+  int fd = open(filename, O_RDWR | O_CREAT | O_TRUNC);
+  if (fd == -1)
+    {
+      //printf("failed to creat a file");
+    return -1;
+    }
+  write(fd, text_content, strlen(text_content));
 
-	if (filename == NULL)
-		return (-1);
-		fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
-	if (fd == -1)
-		return (-1);
-	if (text_content == NULL)
-		return (1);
-	while (text_content[i])
-		i++;
-	s = write(fd, text_content, i);
-	if (s == -1 || s != i)
-		return (-1);
-	return (s);
+  close(fd);
+  return 1;
+    
 }
