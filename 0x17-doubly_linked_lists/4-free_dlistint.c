@@ -18,4 +18,5 @@ void free_dlistint(dlistint_t *head)
 		free(p);
 		p = store;
 	}
+	free(p);
 }
