@@ -20,8 +20,8 @@ int sum_listint(listint_t *head)
 	p = head;
 	while (p->next)
 	{
+		i+= p->n;
 		p = p->next;
-		i += p->n;
 	}
 	return (i);
 }
