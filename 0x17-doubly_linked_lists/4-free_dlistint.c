@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * free_dlistint - function to free alist
  * @head: head of the list
@@ -13,9 +13,9 @@ void free_dlistint(dlistint_t *head)
 
 	while (head != NULL)
 	{
-		store = head->next;
-		free(head);
-		head = store;
+		store = head;
+		free(store);
+		head = head->next;	
 	}
 
 }
