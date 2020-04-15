@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include "lists.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
  * sum_listint  - functon to count sum of n in linked list
