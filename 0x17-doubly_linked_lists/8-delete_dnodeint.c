@@ -11,9 +11,15 @@
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *p, *n, *pv;
-	unsigned int i = 0;
+	unsigned int i = 1;
 
 	p = *head;
+
+	if (index == 0)
+	{
+		p = p->next;
+		*head = p;
+	}
 	while(i <= index )
 	{
 		p = p->next;
