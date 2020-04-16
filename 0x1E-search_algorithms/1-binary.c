@@ -23,14 +23,11 @@ int binary_search(int *array, size_t size, int value)
 		for (i = left; i <= right; i++)
 
 		{
-			putchar(*(array + i) + '0');
-			if (i < right)
-			{
-			putchar(',');
-			putchar(' ');
-			}
+			printf("%d", array[i]);
+			if (i != right)
+				printf(", ");
 		}
-		putchar('\n');
+		printf("\n");
 		middle = (left + right) / 2;
 
 		if (array[middle] == value)
