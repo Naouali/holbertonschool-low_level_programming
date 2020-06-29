@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * argstostr - function to concat argument
  *@ac: argument number
@@ -9,22 +10,11 @@
 
 char *argstostr(int ac, char **av)
 {
-  int i, j, k;
-  if (ac == 0 || av == NULL)
-    return (NULL);
-  
-  j = 0;
-  while(av)
-  {
-    j++;
-  }
-  char *m = malloc((sizeof(char) * j) + ac);
-  for (i = 0; i <= ac; i++)
-  { 
-    for (k = 0; k <= i; k++)
-    {
-      m[i] = av[i][k];
-    }
-  }
-    return m;
+	unsigned int i;
+	char *str = malloc(sizeof(char));
+
+	if (ac == 0 || av == NULL)
+		return (NULL);
+
 }
+	
